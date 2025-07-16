@@ -1,0 +1,101 @@
+body {
+  background: linear-gradient(135deg, #131736, #475d7a);
+  font-family: 'Arial', sans-serif;
+  color: #f0eaea;
+  padding: 20px;
+  text-align: center;
+}
+
+h1 {
+  font-family: 'Bangers', cursive;
+  color: #b0e7e3;
+  font-size: 3em;
+  margin-bottom: 10px;
+}
+
+.container {
+  max-width: 500px;
+  margin: auto;
+  background-color: rgba(0, 0, 0, 0.5);
+  padding: 20px;
+  border-radius: 12px;
+  box-sizing: border-box;
+  overflow: hidden;        /* ✅ Evita que algo "vaze" da área */
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+/*
+input,
+button {
+  width: 90%;
+  
+  padding: 10px;
+  margin: 10px ;
+  border: none;
+  border-radius: 6px;
+  font-size: 1em;
+}
+*/
+input,
+button {
+  width: 100%;
+  max-width: 100%;
+  padding: 10px;
+  margin: 10px 0;       /* Alinha verticalmente com os inputs */
+  border: none;
+  border-radius: 6px;
+  font-size: 1em;
+  box-sizing: border-box; /* Garante que padding não afete a largura */
+}
+
+button {
+  
+  background-color: #ffcc00;
+  color: #000;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #c4b475;
+}
+
+#resultado {
+  margin-top: 15px;
+  font-size: 1.2em;
+  font-weight: bold;
+}
+
+#ranking {
+  margin-top: 20px;
+  text-align: left;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 10px;
+}
+
+th,
+td {
+  border: 1px solid #fff;
+  padding: 8px;
+  text-align: center;
+}
+
+th {
+  background-color: #293b5f;
+}
+
+@media screen and (max-width: 600px) {
+  .container {
+    padding: 10px;
+  }
+
+  h1 {
+    font-size: 2em;
+  }
+}

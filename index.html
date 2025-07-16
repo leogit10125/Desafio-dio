@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Classificador de Heróis</title>
+  <link href="https://fonts.googleapis.com/css2?family=Bangers&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <h1>Classificador de Heróis 🦸</h1>
+  <div class="container">
+    <p>Digite o nome do herói e sua XP para descobrir seu nível!</p>
+
+    <label for="nomeHeroi">Nome:</label>
+    <input type="text" id="nomeHeroi" placeholder="Nome do Herói" />
+
+    <label for="xpHeroi">XP:</label>
+    <input type="number" id="xpHeroi" placeholder="XP do Herói" />
+
+    <button onclick="classificarHeroi()">Classificar</button>
+
+    <p id="resultado"></p>
+
+    <button onclick="alternarRanking()">Ver Histórico 👁️</button>
+    <div id="ranking" style="display: none;">
+      <table id="tabelaRanking">
+        <thead>
+          <tr>
+            <th>Nome</th>
+            <th>XP</th>
+            <th>Nível</th>
+            <th>Emoji</th>
+          </tr>
+        </thead>
+        <tbody></tbody>
+      </table>
+    </div>
+  </div>
+  <script src="scripts.js"></script>
+</body>
+</html>
