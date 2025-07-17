@@ -20,7 +20,7 @@ Projeto interativo criado para classificar heróis com base na sua experiência 
 
 ## 🔗 Link para o site
 
-> 📍 [Acesse a versão online via GitHub Pages](https://seu-usuario.github.io/classificador-heroi/)  
+> 📍 [Acesse a versão online via GitHub Pages](https://leogit10125.github.io/classificador-heroi/)  
 *(Substitua “seu-usuario” pelo seu nome de usuário do GitHub)*
 
 ## 📦 Tecnologias utilizadas
