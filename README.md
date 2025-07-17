@@ -50,4 +50,4 @@ Ideal para iniciantes em lógica de programação que desejam criar algo visual,
 
 ---
 
-Criado com 💻 e 🧠 por **Leone** — o herói do código! ⚡  
+Criado com 💻 e 🧠 por Leone  
